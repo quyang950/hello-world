@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "learning_enabled": true,
+    "auto_apply_suggestions": false,
+    "similarity_threshold": 0.85,
+    "backup_enabled": true
+  },
+  "rules": [
+    {
+      "name": "标准化OpenGauss",
+      "type": "replace",
+      "pattern": "(?i)\\bog\\b",
+      "replacement": "OpenGauss",
+      "priority": 10,
+      "enabled": true
+    },
+    {
+      "name": "标准化MySQL",
+      "type": "replace",
+      "pattern": "(?i)\\bmysql\\b",
+      "replacement": "MySQL",
+      "priority": 10,
+      "enabled": true
+    }
+  ]
+}

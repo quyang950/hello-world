@@ -1,0 +1,82 @@
+{
+  "summary": {
+    "original_count": 5,
+    "unique_count": 3,
+    "duplicate_count": 2,
+    "similarity_threshold": 0.85
+  },
+  "unique_cases": [
+    {
+      "id": 1,
+      "case_name": "订单系统数据库OpenGauss连接测试",
+      "description": "验证订单系统与OpenGauss数据库的连接功能",
+      "test_steps": [
+        "1. 启动订单系统服务",
+        "2. 配置OpenGauss数据库连接参数",
+        "3. 测试数据库连接",
+        "4. 验证连接状态"
+      ],
+      "expected_result": "系统能够成功连接到OpenGauss数据库，连接状态显示正常",
+      "generalized_name": "【xxx】数据库OpenGauss连接测试",
+      "content_hash": "6256d829d66f7838eab20848752f6836"
+    },
+    {
+      "id": 3,
+      "case_name": "库存管理系统MySQL连接测试",
+      "description": "验证库存管理系统与MySQL数据库的连接功能",
+      "test_steps": [
+        "1. 启动库存管理系统服务",
+        "2. 配置MySQL数据库连接参数",
+        "3. 测试数据库连接",
+        "4. 验证连接状态"
+      ],
+      "expected_result": "系统能够成功连接到MySQL数据库，连接状态显示正常",
+      "generalized_name": "【xxx】MySQL连接测试",
+      "content_hash": "408305f6aa526bfdb05439683ac925c3"
+    },
+    {
+      "id": 5,
+      "case_name": "OpenGauss数据库性能测试",
+      "description": "测试OpenGauss数据库在高并发下的性能表现",
+      "test_steps": [
+        "1. 准备测试数据",
+        "2. 配置并发测试参数",
+        "3. 执行并发查询操作",
+        "4. 监控数据库性能指标"
+      ],
+      "expected_result": "OpenGauss数据库在指定并发数下响应时间小于100ms，CPU使用率低于80%",
+      "generalized_name": "OpenGauss数据库性能测试",
+      "content_hash": "763297fe34ace70f97775bff17ece71f"
+    }
+  ],
+  "duplicate_cases": [
+    {
+      "id": 2,
+      "case_name": "用户管理系统数据库OpenGauss连接测试",
+      "description": "验证用户管理系统与OpenGauss数据库的连接功能",
+      "test_steps": [
+        "1. 启动用户管理系统服务",
+        "2. 配置OpenGauss数据库连接参数",
+        "3. 测试数据库连接",
+        "4. 验证连接状态"
+      ],
+      "expected_result": "系统能够成功连接到OpenGauss数据库，连接状态显示正常",
+      "generalized_name": "【xxx】数据库OpenGauss连接测试",
+      "content_hash": "98e044327e42da49b4771dc4eef4b7b4"
+    },
+    {
+      "id": 4,
+      "case_name": "支付系统数据库连接测试",
+      "description": "验证支付系统与数据库的连接功能",
+      "test_steps": [
+        "1. 启动支付系统服务",
+        "2. 配置数据库连接参数",
+        "3. 测试数据库连接",
+        "4. 验证连接状态"
+      ],
+      "expected_result": "系统能够成功连接到数据库，连接状态显示正常",
+      "generalized_name": "【xxx】数据库连接测试",
+      "content_hash": "4a0c651c2df5648e9fad838417568a5b"
+    }
+  ]
+}

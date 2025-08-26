@@ -1,0 +1,43 @@
+{
+  "database_name_mapping": {
+    "og": "OpenGauss",
+    "openguass": "OpenGauss",
+    "open-gauss": "OpenGauss",
+    "opengauss": "OpenGauss",
+    "mysql": "MySQL",
+    "MYSQL": "MySQL",
+    "postgresql": "PostgreSQL",
+    "postgres": "PostgreSQL",
+    "pg": "PostgreSQL",
+    "oracle": "Oracle",
+    "sqlserver": "SQL Server",
+    "sql-server": "SQL Server",
+    "mongodb": "MongoDB",
+    "mongo": "MongoDB",
+    "redis": "Redis",
+    "elasticsearch": "Elasticsearch",
+    "es": "Elasticsearch"
+  },
+  "system_name_patterns": [
+    "订单系统",
+    "用户管理系统",
+    "库存管理系统",
+    "支付系统",
+    "商品管理系统",
+    "财务系统",
+    "客服系统",
+    "报表系统",
+    "审计系统",
+    "权限管理系统",
+    "消息系统",
+    "通知系统",
+    "物流系统",
+    "采购系统",
+    "销售系统",
+    "CRM系统",
+    "ERP系统",
+    "OA系统"
+  ],
+  "similarity_threshold": 0.85,
+  "replacement_placeholder": "【xxx】"
+}

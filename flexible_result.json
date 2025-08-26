@@ -1,0 +1,371 @@
+{
+  "original_count": 5,
+  "unique_count": 2,
+  "duplicate_count": 3,
+  "rule_usage": {},
+  "learning_results": {
+    "database_patterns": [
+      {
+        "candidate": "配置og",
+        "confidence": 0.9,
+        "suggested_standard": "配置Og"
+      },
+      {
+        "candidate": "验证订单系统与og数据库的",
+        "confidence": 0.9,
+        "suggested_standard": "验证订单系统与Og数据库的"
+      },
+      {
+        "candidate": "配置og数据库",
+        "confidence": 0.9,
+        "suggested_standard": "配置Og数据库"
+      },
+      {
+        "candidate": "og",
+        "confidence": 0.9,
+        "suggested_standard": "OpenGauss"
+      },
+      {
+        "candidate": "配置mysql数据库",
+        "confidence": 0.9,
+        "suggested_standard": "配置Mysql数据库"
+      },
+      {
+        "candidate": "验证库存管理系统与mysql",
+        "confidence": 0.9,
+        "suggested_standard": "验证库存管理系统与Mysql"
+      },
+      {
+        "candidate": "og数据库性能",
+        "confidence": 0.9,
+        "suggested_standard": "Og数据库性能"
+      },
+      {
+        "candidate": "配置mysql",
+        "confidence": 0.9,
+        "suggested_standard": "配置Mysql"
+      },
+      {
+        "candidate": "用户管理系统数据库og连接",
+        "confidence": 0.9,
+        "suggested_standard": "用户管理系统数据库Og连接"
+      },
+      {
+        "candidate": "库存管理系统mysql连接",
+        "confidence": 0.9,
+        "suggested_standard": "库存管理系统Mysql连接"
+      },
+      {
+        "candidate": "验证订单系统与og",
+        "confidence": 0.9,
+        "suggested_standard": "验证订单系统与Og"
+      },
+      {
+        "candidate": "验证用户管理系统与og",
+        "confidence": 0.9,
+        "suggested_standard": "验证用户管理系统与Og"
+      },
+      {
+        "candidate": "测试og数据库在高并发下的",
+        "confidence": 0.9,
+        "suggested_standard": "测试Og数据库在高并发下的"
+      },
+      {
+        "candidate": "测试og",
+        "confidence": 0.9,
+        "suggested_standard": "测试Og"
+      },
+      {
+        "candidate": "验证用户管理系统与og数据库的",
+        "confidence": 0.9,
+        "suggested_standard": "验证用户管理系统与Og数据库的"
+      },
+      {
+        "candidate": "订单系统数据库og连接",
+        "confidence": 0.9,
+        "suggested_standard": "订单系统数据库Og连接"
+      },
+      {
+        "candidate": "参数",
+        "confidence": 0.5,
+        "suggested_standard": "参数"
+      },
+      {
+        "candidate": "支付系统",
+        "confidence": 0.5,
+        "suggested_standard": "支付系统"
+      },
+      {
+        "candidate": "验证",
+        "confidence": 0.5,
+        "suggested_standard": "验证"
+      },
+      {
+        "candidate": "准备",
+        "confidence": 0.5,
+        "suggested_standard": "准备"
+      },
+      {
+        "candidate": "支付系统数据库连接",
+        "confidence": 0.5,
+        "suggested_standard": "支付系统数据库连接"
+      },
+      {
+        "candidate": "用户管理系统",
+        "confidence": 0.5,
+        "suggested_standard": "用户管理系统"
+      },
+      {
+        "candidate": "测试",
+        "confidence": 0.5,
+        "suggested_standard": "测试"
+      },
+      {
+        "candidate": "订单系统",
+        "confidence": 0.5,
+        "suggested_standard": "订单系统"
+      },
+      {
+        "candidate": "监控",
+        "confidence": 0.5,
+        "suggested_standard": "监控"
+      },
+      {
+        "candidate": "测试数据库",
+        "confidence": 0.5,
+        "suggested_standard": "测试数据库"
+      },
+      {
+        "candidate": "配置",
+        "confidence": 0.5,
+        "suggested_standard": "配置"
+      },
+      {
+        "candidate": "验证支付系统与",
+        "confidence": 0.5,
+        "suggested_standard": "验证支付系统与"
+      },
+      {
+        "candidate": "配置数据库",
+        "confidence": 0.5,
+        "suggested_standard": "配置数据库"
+      },
+      {
+        "candidate": "监控数据库",
+        "confidence": 0.5,
+        "suggested_standard": "监控数据库"
+      },
+      {
+        "candidate": "状态",
+        "confidence": 0.5,
+        "suggested_standard": "状态"
+      },
+      {
+        "candidate": "配置并发",
+        "confidence": 0.5,
+        "suggested_standard": "配置并发"
+      },
+      {
+        "candidate": "验证支付系统与数据库的",
+        "confidence": 0.5,
+        "suggested_standard": "验证支付系统与数据库的"
+      },
+      {
+        "candidate": "功能",
+        "confidence": 0.5,
+        "suggested_standard": "功能"
+      }
+    ],
+    "system_patterns": [
+      {
+        "pattern": "订单系统",
+        "frequency": 1,
+        "suggested_replacement": "【xxx】",
+        "auto_generated_rule": {
+          "type": "replace",
+          "pattern": "订单系统",
+          "replacement": "【xxx】",
+          "name": "抽象化订单系统"
+        }
+      },
+      {
+        "pattern": "用户管理系统",
+        "frequency": 1,
+        "suggested_replacement": "【xxx】",
+        "auto_generated_rule": {
+          "type": "replace",
+          "pattern": "用户管理系统",
+          "replacement": "【xxx】",
+          "name": "抽象化用户管理系统"
+        }
+      },
+      {
+        "pattern": "用户管理",
+        "frequency": 1,
+        "suggested_replacement": "【xxx】",
+        "auto_generated_rule": {
+          "type": "replace",
+          "pattern": "用户管理",
+          "replacement": "【xxx】",
+          "name": "抽象化用户管理"
+        }
+      },
+      {
+        "pattern": "库存管理系统",
+        "frequency": 1,
+        "suggested_replacement": "【xxx】",
+        "auto_generated_rule": {
+          "type": "replace",
+          "pattern": "库存管理系统",
+          "replacement": "【xxx】",
+          "name": "抽象化库存管理系统"
+        }
+      },
+      {
+        "pattern": "库存管理",
+        "frequency": 1,
+        "suggested_replacement": "【xxx】",
+        "auto_generated_rule": {
+          "type": "replace",
+          "pattern": "库存管理",
+          "replacement": "【xxx】",
+          "name": "抽象化库存管理"
+        }
+      },
+      {
+        "pattern": "支付系统",
+        "frequency": 1,
+        "suggested_replacement": "【xxx】",
+        "auto_generated_rule": {
+          "type": "replace",
+          "pattern": "支付系统",
+          "replacement": "【xxx】",
+          "name": "抽象化支付系统"
+        }
+      }
+    ],
+    "template_patterns": [],
+    "similarity_clusters": [
+      {
+        "cluster_id": 0,
+        "size": 4,
+        "cases": [
+          {
+            "id": 1,
+            "case_name": "订单系统数据库og连接测试",
+            "description": "验证订单系统与og数据库的连接功能",
+            "test_steps": [
+              "1. 启动订单系统服务",
+              "2. 配置og数据库连接参数",
+              "3. 测试数据库连接",
+              "4. 验证连接状态"
+            ],
+            "expected_result": "系统能够成功连接到og数据库，连接状态显示正常"
+          },
+          {
+            "id": 2,
+            "case_name": "用户管理系统数据库og连接测试",
+            "description": "验证用户管理系统与og数据库的连接功能",
+            "test_steps": [
+              "1. 启动用户管理系统服务",
+              "2. 配置og数据库连接参数",
+              "3. 测试数据库连接",
+              "4. 验证连接状态"
+            ],
+            "expected_result": "系统能够成功连接到og数据库，连接状态显示正常"
+          },
+          {
+            "id": 3,
+            "case_name": "库存管理系统mysql连接测试",
+            "description": "验证库存管理系统与mysql数据库的连接功能",
+            "test_steps": [
+              "1. 启动库存管理系统服务",
+              "2. 配置mysql数据库连接参数",
+              "3. 测试数据库连接",
+              "4. 验证连接状态"
+            ],
+            "expected_result": "系统能够成功连接到mysql数据库，连接状态显示正常"
+          },
+          {
+            "id": 4,
+            "case_name": "支付系统数据库连接测试",
+            "description": "验证支付系统与数据库的连接功能",
+            "test_steps": [
+              "1. 启动支付系统服务",
+              "2. 配置数据库连接参数",
+              "3. 测试数据库连接",
+              "4. 验证连接状态"
+            ],
+            "expected_result": "系统能够成功连接到数据库，连接状态显示正常"
+          }
+        ],
+        "similarity_score": 0.8182391677055091
+      }
+    ]
+  },
+  "unique_cases": [
+    {
+      "id": 3,
+      "case_name": "库存管理系统mysql连接测试",
+      "description": "验证库存管理系统与mysql数据库的连接功能",
+      "test_steps": [
+        "1. 启动库存管理系统服务",
+        "2. 配置mysql数据库连接参数",
+        "3. 测试数据库连接",
+        "4. 验证连接状态"
+      ],
+      "expected_result": "系统能够成功连接到mysql数据库，连接状态显示正常"
+    },
+    {
+      "id": 5,
+      "case_name": "og数据库性能测试",
+      "description": "测试og数据库在高并发下的性能表现",
+      "test_steps": [
+        "1. 准备测试数据",
+        "2. 配置并发测试参数",
+        "3. 执行并发查询操作",
+        "4. 监控数据库性能指标"
+      ],
+      "expected_result": "og数据库在指定并发数下响应时间小于100ms，CPU使用率低于80%"
+    }
+  ],
+  "duplicate_cases": [
+    {
+      "id": 1,
+      "case_name": "订单系统数据库og连接测试",
+      "description": "验证订单系统与og数据库的连接功能",
+      "test_steps": [
+        "1. 启动订单系统服务",
+        "2. 配置og数据库连接参数",
+        "3. 测试数据库连接",
+        "4. 验证连接状态"
+      ],
+      "expected_result": "系统能够成功连接到og数据库，连接状态显示正常"
+    },
+    {
+      "id": 2,
+      "case_name": "用户管理系统数据库og连接测试",
+      "description": "验证用户管理系统与og数据库的连接功能",
+      "test_steps": [
+        "1. 启动用户管理系统服务",
+        "2. 配置og数据库连接参数",
+        "3. 测试数据库连接",
+        "4. 验证连接状态"
+      ],
+      "expected_result": "系统能够成功连接到og数据库，连接状态显示正常"
+    },
+    {
+      "id": 4,
+      "case_name": "支付系统数据库连接测试",
+      "description": "验证支付系统与数据库的连接功能",
+      "test_steps": [
+        "1. 启动支付系统服务",
+        "2. 配置数据库连接参数",
+        "3. 测试数据库连接",
+        "4. 验证连接状态"
+      ],
+      "expected_result": "系统能够成功连接到数据库，连接状态显示正常"
+    }
+  ],
+  "processing_timestamp": "2025-08-26T14:27:30.970109"
+}
